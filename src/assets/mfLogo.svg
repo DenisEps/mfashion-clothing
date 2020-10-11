@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375pt" height="374.999991pt" viewBox="0 0 375 374.999991" version="1.2">
+<defs>
+<g>
+<symbol overflow="visible" id="glyph0-0">
+<path style="stroke:none;" d="M 82.765625 0 L 12.3125 0 L 12.3125 -172.40625 L 82.765625 -172.40625 Z M 77.328125 -10.1875 L 77.328125 -162.234375 L 50.203125 -86.203125 Z M 17.640625 -161.15625 L 17.640625 -11.125 L 44.40625 -86.203125 Z M 21.671875 -6.390625 L 72.828125 -6.390625 L 47.25 -78.03125 Z M 47.25 -94.265625 L 72.828125 -166.015625 L 21.671875 -166.015625 Z M 47.25 -94.265625 "/>
+</symbol>
+<symbol overflow="visible" id="glyph0-1">
+<path style="stroke:none;" d="M 59.328125 -172.40625 L 91.890625 -47.71875 L 124.34375 -172.40625 L 169.8125 -172.40625 L 169.8125 0 L 134.875 0 L 134.875 -46.65625 L 138.078125 -118.53125 L 103.609375 0 L 79.9375 0 L 45.46875 -118.53125 L 48.671875 -46.65625 L 48.671875 0 L 13.859375 0 L 13.859375 -172.40625 Z M 59.328125 -172.40625 "/>
+</symbol>
+<symbol overflow="visible" id="glyph0-2">
+<path style="stroke:none;" d="M 102.78125 -70.34375 L 48.671875 -70.34375 L 48.671875 0 L 13.859375 0 L 13.859375 -172.40625 L 109.296875 -172.40625 L 109.296875 -143.40625 L 48.671875 -143.40625 L 48.671875 -99.234375 L 102.78125 -99.234375 Z M 102.78125 -70.34375 "/>
+</symbol>
+</g>
+</defs>
+<g id="surface1">
+<rect x="0" y="0" width="375" height="374.999991" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
+<rect x="0" y="0" width="375" height="374.999991" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
+<rect x="0" y="0" width="375" height="374.999991" style="fill:rgb(94.119263%,21.179199%,7.058716%);fill-opacity:1;stroke:none;"/>
+<g style="fill:rgb(100%,99.21875%,99.21875%);fill-opacity:1;">
+  <use xlink:href="#glyph0-1" x="37.874307" y="258.820292"/>
+</g>
+<g style="fill:rgb(100%,99.21875%,99.21875%);fill-opacity:1;">
+  <use xlink:href="#glyph0-2" x="221.768024" y="258.820292"/>
+</g>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 51.53125 295.5625 L 323.515625 295.5625 L 323.515625 300.707031 L 51.53125 300.707031 Z M 51.53125 295.5625 "/>
+</g>
+</svg>
