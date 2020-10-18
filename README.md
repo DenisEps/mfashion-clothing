@@ -1,3 +1,5 @@
+### [Click here to open the website on Heroku](https://mf-live.herokuapp.com/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
