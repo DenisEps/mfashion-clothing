@@ -3,13 +3,13 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-  apiKey: process.env.REACT_APP_API_KEY,
+  apiKey: 'AIzaSyALRW7WMOaQjSMVudQ7dwsEIPKKHWZAvvI',
   authDomain: 'mfashion-db.firebaseapp.com',
   databaseURL: 'https://mfashion-db.firebaseio.com',
   projectId: 'mfashion-db',
   storageBucket: 'mfashion-db.appspot.com',
   messagingSenderId: '207484553250',
-  appId: process.env.REACT_APP_APP_ID,
+  appId: '1:207484553250:web:d481654b34f8cc9953627b'
 };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
@@ -57,24 +57,24 @@ export const convertCollectionsSnapshotToMap = (collections) => {
       routeName: encodeURI(title.toLowerCase()),
       id: doc.id,
       title,
-      items,
+      items
     };
   });
 
   return transformedCollection.reduce((acc, collection) => {
     acc[collection.title.toLowerCase()] = collection;
     return acc;
-  }, {})
+  }, {});
 };
 
 export const getCurrentUser = () => {
   return new Promise((resolve, reject) => {
-    const unsubscribe = auth.onAuthStateChanged(user => {
-      unsubscribe()
-      resolve(user)
-    }, reject)
-  })
-}
+    const unsubscribe = auth.onAuthStateChanged((user) => {
+      unsubscribe();
+      resolve(user);
+    }, reject);
+  });
+};
 
 firebase.initializeApp(config);
 
