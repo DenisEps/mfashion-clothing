@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import {Link} from 'react-router-dom';
-import { ReactComponent as Logo } from '../../assets/mfLogo.svg';
+import { Link } from 'react-router-dom';
+import { ReactComponent as Logo } from '../../assets/mfLogo_cropped.svg';
 
 export const HeaderContainer = styled.div`
   height: 70px;
@@ -8,12 +8,22 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+
+  @media screen and (max-width: 800px) {
+    height: 60px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+  }
 `;
 
 export const LogoContainer = styled(Link)`
-  height: 100%;
-  width: 100px;
-  /* padding: 25px; */
+  /* height: 100%; */
+  width: 120px;
+  padding: 7px;
+  @media screen and (max-width: 800px) {
+    width: 100px;
+    padding: 0 0 0 10px;
+  } ;
 `;
 
 export const OptionsContainer = styled.div`
@@ -22,6 +32,10 @@ export const OptionsContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+
+  @media screen and (max-width: 800px) {
+    width: 80%;
+  }
 `;
 
 export const OptionLink = styled(Link)`
